@@ -4,6 +4,8 @@
 <img src="example_Lorenz/Lorenz.png" width="600" height="400">
 </p>
 
+Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/fileexchange/30066-lorenz-attaractor-plot?focused=5176856&tab=function
+
 ### Subsampling Lorenz attractor
 
 ## Delay time and delay dimension
