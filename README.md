@@ -2,14 +2,10 @@
 ## Lorenz attractor generation
 <p align="center">
 	<img src="example_Lorenz/Lorenz.png" width="600" height="400">
-
-	<em>image_caption</em>
 </p>
-
 <p align="center">
-	<em>image_caption</em>
+	<em>Fig.1</em>
 </p>
-<caption align="right">Fig.1</caption>
 
 Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/fileexchange/30066-lorenz-attaractor-plot?focused=5176856&tab=function
 
@@ -17,9 +13,9 @@ Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/f
 
 ## Delay time and delay dimension
 <p align="center">
-<img src="example_Lorenz/MI_full.png" width="600" height="400">
-<img src="example_Lorenz/MI_sparse.png" width="600" height="400">
-<img src="example_Lorenz/FNN.png" width="600" height="400">
+<img src="example_Lorenz/MI_full.png" width="300" height="200">
+<img src="example_Lorenz/MI_sparse.png" width="300" height="200">
+<img src="example_Lorenz/FNN.png" width="300" height="200">
 </p>
 
 For more about mutual information, refer to this article: DOI:https://doi.org/10.1103/PhysRevA.33.1134
