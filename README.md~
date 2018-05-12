@@ -120,6 +120,12 @@ this will return us a 1990 <img src="https://latex.codecogs.com/gif.latex?\times
 Reference: https://doi.org/10.1016/0167-2789(86)90031-X
 
 ## Jacobian determinante
+
+<p align="center">
+<img src="example_Lorenz/Lorenz_spectrum.png" width="600" height="400">
+<img src="example_Lorenz/Lorenz_dmap.png" width="600" height="400">
+</p>
+
 <p align="center">
 <img src="example_Lorenz/Lorenz_detJ.png" width="600" height="400">
 <img src="example_Lorenz/detJ_1D.png" width="600" height="400">
