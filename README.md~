@@ -94,7 +94,7 @@ In the previous steps, we have find the good delay time and delay dimension for 
 dMap(5,20,0,Lorenz_sparse)
 ```
 
-this will return us a 1990 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional matrix `EBD.mat`.
+this will return us a 1990 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional matrix `EBD.mat`, the reconstructed 3D attractor is shown in Fig.4.
 
 <p align="center">
 <img src="example_Lorenz/Lorenz_delayed.png" width="600" height="400">
