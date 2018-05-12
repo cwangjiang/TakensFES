@@ -32,7 +32,7 @@ Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/f
 
 ## Delay time and delay dimension
 
-When doing delay embedding, good delay time <img src="https://latex.codecogs.com/gif.latex?\tau"> and delay dimension D will be important, we use 'mutual information' to identify good delay time, and 'false nearest neighbour counting' to find good delay dimension.
+We pretend to slect the x component from Lorenz attractor to perform delay embedding, when doing delay embedding, good delay time <img src="https://latex.codecogs.com/gif.latex?\tau"> and delay dimension D will be important, we use 'mutual information' (MI) to identify good delay time, and 'false nearest neighbour counting' to find good delay dimension. Good delay time can be the time at which MI drops to the first minima, applying `MI.m` to full version, we obtain the plot shown in Fig.2 top letf, which shows that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 50 is a good delay time, but apply `MI.m` to the sparse version, it tells that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5 is a good delay time, as shown in the righ top panel in Fig.2, we will use <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5.
 
 <p align="center">
 <img src="example_Lorenz/MI_full.png" width="400" height="300">
