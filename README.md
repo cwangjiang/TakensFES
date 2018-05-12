@@ -11,15 +11,15 @@ Lorenz attractor is the 3 dimensional dynamical system generating from different
 A 20581 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional vector will be generated using `lorenz_generating.m` in matlab
 
 ```bash
-[X] = lorenz_generating(28,10,8/3,[0 1 1.05],[0 100],0.000001)
+>> [X] = lorenz_generating(28,10,8/3,[0 1 1.05],[0 100],0.000001);
 
-Lorenz_full = X
+>> Lorenz_full = X;
 ```
 
 The Lorenz attractor is shown in Fig.1. Because 20581 points are slight too much, so we decide to evenly subsample 2000 points out from it, and generate a sparse version of the Lorenz attractor `Lorenz_sparse.mat`, we plot the full version `Lorenz_pull.mat` and the sparse version `Lorenz_sparse.mat` together as shown in Fig.1, these can be done using matlab script `Plot_dmap.m`:
 
 ```bash
-Plot_dmap
+>> Plot_dmap
 ```
 
 <p align="center">
@@ -37,17 +37,17 @@ We pretend to slect the x component from Lorenz attractor to perform delay embed
 
 We pick out x component of the sparse Lorenz attract as O:
 ```bash
-O =  Lorenz_sparse(:,1)
+>> O =  Lorenz_sparse(:,1);
 ```
 and apply `MI.m` to O to generate MI plot, during which we select the number of bins to be 5, and maximum examine delay time to be 20:
 ```bash
-MI(O)
+>> MI(O);
 ```
 
 As to good delay dimension, we use E1 measurement in 'false nearest neighbor' method, good delay dimension D is the dimension at which E1 mesurement reaches plateau and approaches 1.0. As shown in the bottom panel in Fig.2, the good dimension for Lorenz attractor is about 3.
 
 ```bash
-FNN(O)
+>> FNN(O);
 ```
 then set the maximum dimension to exam to be 10, with delay time to be 5.
 
@@ -69,7 +69,7 @@ and https://doi.org/10.1016/S0167-2789(97)00118-8 for nearest neighbor.
 Diffusion maps manifold learning technique could be applied to the Lorenz attractor:
 
 ```bash
-dMap(5,20,0,Lorenz_sparse)
+>> dMap(5,20,0,Lorenz_sparse);
 ```
 
 The eigenvalue spectrum in the top panel of Fig.3 tells us that the effective dimensionality of the Lorenz attractor is 2, since there is a clear spectrum gap between eigenvalue index 3 and 4, and eigenvector 1 corresponds to the trivial mode. The low dimensional embedding of the Lorenz attractor is spanned by <img src="https://latex.codecogs.com/gif.latex?\Psi_2"> and <img src="https://latex.codecogs.com/gif.latex?\Psi_3"> shown in the lower panel of Fig.3.
@@ -98,7 +98,7 @@ Given a time series observation <img src="https://latex.codecogs.com/gif.latex?X
 In the previous steps, we have find the good delay time and delay dimension for `Lorenz_sparse` to be 5 and 3, we can then construct the reconstructed delayed attractor using its x component:
 
 ```bash
-RCT(O)
+>> RCT(O);
 ```
 
 this will return us a 1990 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional matrix `EBD.mat`, the reconstructed 3D attractor is shown in Fig.4.
@@ -127,7 +127,7 @@ Takens' embedding theorem says that the reconsturcted attractor and the original
 >> meshless_jacobian_3d;
 ```
 
-This will return us the detJ computed for each point shown in the 3D version and temporal order.
+This will return us the detJ computed for each point shown in the 3D version and temporal order, and are shown in Fig.5, we find that detJ for almost all point are single signed, means that the two attractor are geometrical identical to each other.
 
 <p align="center">
 <img src="example_Lorenz/Lorenz_detJ.png" width="600" height="400">
