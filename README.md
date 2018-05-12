@@ -3,7 +3,6 @@
 <p align="center">
 <img src="example_Lorenz/Lorenz.png" width="600" height="400">
 <caption align="center">{{ include.description }}</caption>
-[name](example_Lorenz/Lorenz.png)
 </p>
 
 Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/fileexchange/30066-lorenz-attaractor-plot?focused=5176856&tab=function
