@@ -136,5 +136,3 @@ This will return us the detJ computed for each point shown in the 3D version and
 <p align="center">
 	<em>Fig.5</em>
 </p>
-
-test
