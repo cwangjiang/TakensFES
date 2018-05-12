@@ -121,6 +121,8 @@ Reference: https://doi.org/10.1016/0167-2789(86)90031-X
 
 ## Jacobian determinante
 
+A map  <img src="https://latex.codecogs.com/gif.latex?\Theta"> from manifold M to 
+
 <p align="center">
 <img src="figures/detJ.png" width="500" height="200">
 <img src="figures/detJ1.png" width="600" height="100">
