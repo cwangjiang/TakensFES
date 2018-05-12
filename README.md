@@ -121,12 +121,14 @@ Reference: https://doi.org/10.1016/0167-2789(86)90031-X
 
 ## Jacobian determinante
 
-A map  <img src="https://latex.codecogs.com/gif.latex?\Theta"> from manifold M to 
+A map  <img src="https://latex.codecogs.com/gif.latex?\Theta"> which map manifold M to  <img src="https://latex.codecogs.com/gif.latex?\Theta(M)"> is diffeomorphic if the determinte of the Jacobian matrix is single signed, the Jacobian matrix is defined as the following:
 
 <p align="center">
 <img src="figures/detJ.png" width="500" height="200">
 <img src="figures/detJ1.png" width="600" height="100">
 </p>
+
+
 
 <p align="center">
 <img src="example_Lorenz/Lorenz_detJ.png" width="600" height="400">
