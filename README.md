@@ -4,7 +4,7 @@
 	<img src="example_Lorenz/Lorenz.png" width="600" height="400">
 </p>
 
-<p>
+<p align="center">
 	<em>image_caption</em>
 </p>
 <caption align="right">Fig.1</caption>
