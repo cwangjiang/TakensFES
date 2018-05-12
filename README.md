@@ -101,13 +101,6 @@ In the previous steps, we have find the good delay time and delay dimension for 
 RCT(O)
 ```
 
-
-In the previous steps, we have find the good delay time and delay dimension for `Lorenz_sparse` to be 5 and 3, we can then construct the reconstructed delayed attractor:
-
-```bash
-RCT(O)
-```
-
 this will return us a 1990 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional matrix `EBD.mat`, the reconstructed 3D attractor is shown in Fig.4.
 
 <p align="center">
@@ -128,7 +121,13 @@ A map  <img src="https://latex.codecogs.com/gif.latex?\Theta"> which map manifol
 <img src="figures/detJ1.png" width="600" height="100">
 </p>
 
+Takens' embedding theorem says that the reconsturcted attractor and the original one should be diffeomorphic, the reconstructed 3-D Lorenz attractor in Fig.4 should be geometrical identical to the one in Fig.1, we could use 'meshless' method to compute the determinante of the mapping between these to attractors:
 
+```bash
+>> meshless_jacobian_3d;
+```
+
+This will return us the detJ computed for each point shown in the 3D version and temporal order.
 
 <p align="center">
 <img src="example_Lorenz/Lorenz_detJ.png" width="600" height="400">
