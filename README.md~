@@ -1,8 +1,10 @@
 # Delay-embedding Lorenz_example
+This repository provide the source codes for conducting delay embedding of a time series from a dynamical system, conduct dimensionality reduction, and verify the geometrical identification. 
+
 ## Lorenz attractor generation
 Lorenz attractor is the 3 dimensional dynamical system generating from differential equation sets:
 <p align="center">
-	<img src="figures/Lorenz.gif" width="600" height="400">
+	<img src="figures/Lorenz.gif" >
 </p>
 
 <p align="center">
