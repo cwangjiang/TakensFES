@@ -2,6 +2,7 @@
 ## Lorenz attractor generation
 <p align="center">
 <img src="example_Lorenz/Lorenz.png" width="600" height="400">
+
 <caption align="left">Fig.1</caption>
 </p>
 
