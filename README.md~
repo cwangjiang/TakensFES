@@ -7,13 +7,20 @@ Lorenz attractor is the 3 dimensional dynamical system generating from different
 	<img src="figures/Lorenz.gif" >
 </p>
 
-A 20581 
-<img src="https://latex.codecogs.com/gif.latex?\times"/>
-  by 3 dimensional vector will be generated using `lorenz_generating.m` in matlab
+A 20581 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional vector will be generated using `lorenz_generating.m` in matlab
 
 ```bash
 [X] = lorenz_generating(28,10,8/3,[0 1 1.05],[0 100],0.000001)
+
+Lorenz_full = X
 ```
+
+The Lorenz attractor is shown in Fig.1. Because 20581 points are slight too much, so we decide to evenly subsample 2000 points out from it, and generate a sparse version of the Lorenz attractor `Lorenz_sparse.mat`, we plot the full version `Lorenz_pull.mat` and the sparse version `Lorenz_sparse.mat` together as shown in Fig.1, these can be done using matlab script `Plot_dmap.m`:
+
+```bash
+Plot_dmap
+```
+
 
 
 <p align="center">
