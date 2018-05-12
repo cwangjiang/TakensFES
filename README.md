@@ -38,13 +38,17 @@ We pick out x component of the sparse Lorenz attract as O:
 ```bash
 O =  Lorenz_sparse(:,1)
 ```
-and apply `MI.m` to O to generate MI plot, during which we select the number of bins to be 5, and maximum dimension to be 20:
+and apply `MI.m` to O to generate MI plot, during which we select the number of bins to be 5, and maximum examine delay time to be 20:
 ```bash
 MI(O)
 ```
 
-
 As to good delay dimension, we use E1 measurement in 'false nearest neighbor' method, good delay dimension D is the dimension at which E1 mesurement reaches plateau and approaches 1.0. As shown in the bottom panel in Fig.2, the good dimension for Lorenz attractor is about 3.
+
+```bash
+FNN(O)
+```
+then set the maximum dimension to exam to be 10, with delay time to be 5.
 
 <p align="center">
 <img src="example_Lorenz/MI_full.png" width="400" height="300">
