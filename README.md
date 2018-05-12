@@ -1,7 +1,9 @@
 # Delay-embedding Lorenz_example
 ## Lorenz attractor generation
 Lorenz attractor is the 3 dimensional dynamical system generating from differential equation sets:
-$ \frac{a}{b}$
+<p align="center">
+	<img src="figures/Lorenz.gif" >
+</p>
 
 <p align="center">
 	<img src="example_Lorenz/Lorenz.png" width="600" height="400">
