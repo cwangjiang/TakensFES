@@ -33,7 +33,7 @@ Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/f
 
 ## Delay time and delay dimension
 
-We pretend to slect the x component from Lorenz attractor to perform delay embedding, when doing delay embedding, good delay time <img src="https://latex.codecogs.com/gif.latex?\tau"> and delay dimension D will be important, we use 'mutual information' (MI) to identify good delay time, and 'false nearest neighbour counting' to find good delay dimension. Good delay time can be the time at which MI drops to the first minima, applying `MI.m` to full version, we obtain the plot shown in Fig.2 top letf, which shows that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 50 is a good delay time, but apply `MI.m` to the sparse version, it tells that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5 is a good delay time, as shown in the righ top panel in Fig.2, we will use <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5. 
+We pretend to slect the x component from Lorenz attractor to perform delay embedding, when doing delay embedding, good delay time <img src="https://latex.codecogs.com/gif.latex?\tau"> and delay dimension D will be important, we use 'mutual information' (MI) to identify good delay time, and 'false nearest neighbour counting' to find good delay dimension. Good delay time can be the time at which MI drops to the first minima, applying `MI.m` to full version, we obtain the plot shown in Fig.2 top letf, which shows that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 50 is a good delay time, but apply `MI.m` to the sparse version, it tells that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5 is a good delay time, as shown in the righ top panel in Fig.2, we will use <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5.
 
 We pick out x component of the sparse Lorenz attract as O:
 ```bash
@@ -87,6 +87,15 @@ https://doi.org/10.1073/pnas.0500334102
 https://doi.org/10.1137/070696325
 
 ## Delay embedding of Lorenz attractor
+
+In the previous steps, we have find the good delay time and delay dimension for `Lorenz_sparse` to be 5 and 3, we can then construct the reconstructed delayed attractor:
+
+```bash
+dMap(5,20,0,Lorenz_sparse)
+```
+
+this will return us a 1990 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional matrix `EBD.mat`, the reconstructed 3D attractor is shown in Fig.4.
+
 <p align="center">
 <img src="example_Lorenz/Lorenz_delayed.png" width="600" height="400">
 </p>
