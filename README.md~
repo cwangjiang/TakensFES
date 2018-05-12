@@ -122,8 +122,8 @@ Reference: https://doi.org/10.1016/0167-2789(86)90031-X
 ## Jacobian determinante
 
 <p align="center">
-<img src="example_Lorenz/Lorenz_spectrum.png" width="600" height="400">
-<img src="example_Lorenz/Lorenz_dmap.png" width="600" height="400">
+<img src="figures/detJ.png" width="600" height="400">
+<img src="figures/detJ1.png" width="600" height="400">
 </p>
 
 <p align="center">
