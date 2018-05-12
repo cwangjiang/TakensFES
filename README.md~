@@ -8,8 +8,6 @@ Lorenz attractor is the 3 dimensional dynamical system generating from different
 </p>
 
 
-
-
 A 20581 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional vector will be generated using `lorenz_generating.m` in matlab
 
 ```bash
@@ -66,6 +64,15 @@ For more about mutual information, refer to this article: DOI:https://doi.org/10
 and https://doi.org/10.1016/S0167-2789(97)00118-8 for nearest neighbor.
 
 ## Dimensionality reduction of Lorenz attractor
+
+Diffusion maps manifold learning technique could be applied to the Lorenz attractor:
+
+```bash
+dMap(5,20,0,Lorenz_sparse)
+```
+
+The eigenvalue spectrum in the top panel of Fig.3 tells us that the effective dimensionality of the Lorenz attractor is 2, since there is a clear spectrum gap between eigenvalue index 3 and 4, and eigenvector 1 corresponds to the trivial mode. The low dimensional embedding of the Lorenz attractor is spanned by <img src="https://latex.codecogs.com/gif.latex?\Psi_2"> and <img src="https://latex.codecogs.com/gif.latex?\Psi_3">
+
 <p align="center">
 <img src="example_Lorenz/Lorenz_spectrum.png" width="600" height="400">
 <img src="example_Lorenz/Lorenz_dmap.png" width="600" height="400">
