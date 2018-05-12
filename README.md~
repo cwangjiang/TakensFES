@@ -88,10 +88,14 @@ https://doi.org/10.1137/070696325
 
 ## Delay embedding of Lorenz attractor
 
+Given a time series observation <img src="https://latex.codecogs.com/gif.latex?X(t)"> from a dynamical system, the equivalent attractor can be reconstructed using delay embedding:
+
+
+
 In the previous steps, we have find the good delay time and delay dimension for `Lorenz_sparse` to be 5 and 3, we can then construct the reconstructed delayed attractor:
 
 ```bash
-dMap(5,20,0,Lorenz_sparse)
+RCT(O)
 ```
 
 this will return us a 1990 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional matrix `EBD.mat`, the reconstructed 3D attractor is shown in Fig.4.

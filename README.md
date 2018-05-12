@@ -72,7 +72,7 @@ Diffusion maps manifold learning technique could be applied to the Lorenz attrac
 dMap(5,20,0,Lorenz_sparse)
 ```
 
-The eigenvalue spectrum in the top panel of Fig.3 tells us that the effective dimensionality of the Lorenz attractor is 2, since there is a clear spectrum gap between eigenvalue index 3 and 4, and eigenvector 1 corresponds to the trivial mode. The low dimensional embedding of the Lorenz attractor is spanned by <img src="https://latex.codecogs.com/gif.latex?\Psi_2"> and <img src="https://latex.codecogs.com/gif.latex?\Psi_3"> shown in the lower panel of Fig.3.
+The eigenvalue spectrum in the top panel of Fig.3 tells u<a href="https://www.codecogs.com/eqnedit.php?latex=Y'(t)&space;=&space;[X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y'(t)&space;=&space;[X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" title="Y'(t) = [X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" /></a>s that the effective dimensionality of the Lorenz attractor is 2, since there is a clear spectrum gap between eigenvalue index 3 and 4, and eigenvector 1 corresponds to the trivial mode. The low dimensional embedding of the Lorenz attractor is spanned by <img src="https://latex.codecogs.com/gif.latex?\Psi_2"> and <img src="https://latex.codecogs.com/gif.latex?\Psi_3"> shown in the lower panel of Fig.3.
 
 <p align="center">
 <img src="example_Lorenz/Lorenz_spectrum.png" width="600" height="400">
@@ -87,6 +87,13 @@ https://doi.org/10.1073/pnas.0500334102
 https://doi.org/10.1137/070696325
 
 ## Delay embedding of Lorenz attractor
+
+Given a time series observation <img src="https://latex.codecogs.com/gif.latex?X(t)"> from a dynamical system, the equivalent attractor can be reconstructed using delay embedding: 
+
+<p align="center">
+<a href="https://www.codecogs.com/eqnedit.php?latex=Y'(t)&space;=&space;[X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y'(t)&space;=&space;[X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" title="Y'(t) = [X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" /></a>
+</p>
+
 
 In the previous steps, we have find the good delay time and delay dimension for `Lorenz_sparse` to be 5 and 3, we can then construct the reconstructed delayed attractor:
 
