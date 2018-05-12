@@ -6,6 +6,7 @@ Lorenz attractor is the 3 dimensional dynamical system generating from different
 <p align="center">
 	<img src="figures/Lorenz.gif" >
 </p>
+
 A 20k by 3 dimensional vector will be generated using `lorenz_generatingm` in matlab
 
 ```bash
