@@ -7,6 +7,9 @@ Lorenz attractor is the 3 dimensional dynamical system generating from different
 	<img src="figures/Lorenz.gif" >
 </p>
 
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\\&space;\frac{dx}{dt}=\sigma(y-x)\\&space;\frac{dy}{dt}=x(\rho-z)-y\\&space;\frac{dz}{dt}=xy-\beta&space;z\\" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\\&space;\frac{dx}{dt}=\sigma(y-x)\\&space;\frac{dy}{dt}=x(\rho-z)-y\\&space;\frac{dz}{dt}=xy-\beta&space;z\\" title="\\ \frac{dx}{dt}=\sigma(y-x)\\ \frac{dy}{dt}=x(\rho-z)-y\\ \frac{dz}{dt}=xy-\beta z\\" /></a>
+
 A 20581 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional vector will be generated using `lorenz_generating.m` in matlab
 
 ```bash
