@@ -91,7 +91,7 @@ https://doi.org/10.1137/070696325
 Given a time series observation <img src="https://latex.codecogs.com/gif.latex?X(t)"> from a dynamical system, the equivalent attractor can be reconstructed using delay embedding: 
 
 <p align="center">
-<a href="https://www.codecogs.com/eqnedit.php?latex=Y'(t)&space;=&space;[X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y'(t)&space;=&space;[X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" title="Y'(t) = [X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=Y(t)&space;=&space;[X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Y(t)&space;=&space;[X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" title="Y(t) = [X(t),X(t-\tau),X(t-2\tau),\cdots,X(t-(D-1)\tau)]" /></a>
 </p>
 
 
