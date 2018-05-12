@@ -32,7 +32,19 @@ Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/f
 
 ## Delay time and delay dimension
 
-We pretend to slect the x component from Lorenz attractor to perform delay embedding, when doing delay embedding, good delay time <img src="https://latex.codecogs.com/gif.latex?\tau"> and delay dimension D will be important, we use 'mutual information' (MI) to identify good delay time, and 'false nearest neighbour counting' to find good delay dimension. Good delay time can be the time at which MI drops to the first minima, applying `MI.m` to full version, we obtain the plot shown in Fig.2 top letf, which shows that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 50 is a good delay time, but apply `MI.m` to the sparse version, it tells that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5 is a good delay time, as shown in the righ top panel in Fig.2, we will use <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5.
+We pretend to slect the x component from Lorenz attractor to perform delay embedding, when doing delay embedding, good delay time <img src="https://latex.codecogs.com/gif.latex?\tau"> and delay dimension D will be important, we use 'mutual information' (MI) to identify good delay time, and 'false nearest neighbour counting' to find good delay dimension. Good delay time can be the time at which MI drops to the first minima, applying `MI.m` to full version, we obtain the plot shown in Fig.2 top letf, which shows that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 50 is a good delay time, but apply `MI.m` to the sparse version, it tells that <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5 is a good delay time, as shown in the righ top panel in Fig.2, we will use <img src="https://latex.codecogs.com/gif.latex?\tau"> = 5. 
+
+We pick out x component of the sparse Lorenz attract as O:
+```bash
+O =  Lorenz_sparse(:,1)
+```
+and apply `MI.m` to O to generate MI plot, during which we select the number of bins to be 5, and maximum dimension to be 20:
+```bash
+MI(O)
+```
+
+
+As to good delay dimension, we use E1 measurement in 'false nearest neighbor' method, good delay dimension D is the dimension at which E1 mesurement reaches plateau and approaches 1.0. As shown in the bottom panel in Fig.2, the good dimension for Lorenz attractor is about 3.
 
 <p align="center">
 <img src="example_Lorenz/MI_full.png" width="400" height="300">
