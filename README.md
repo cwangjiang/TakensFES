@@ -60,10 +60,8 @@ then set the maximum dimension to exam to be 10, with delay time to be 5.
 	<em>Fig.2</em>
 </p>
 
-For more about mutual information, refer to this article: 
-
-https://doi.org/10.1103/PhysRevA.33.1134
-
+For more about mutual information, refer to this article:  
+https://doi.org/10.1103/PhysRevA.33.1134  
 and https://doi.org/10.1016/S0167-2789(97)00118-8 for nearest neighbor.
 
 ## Dimensionality reduction of Lorenz attractor
@@ -84,10 +82,8 @@ The eigenvalue spectrum in the top panel of Fig.3 tells us that the effective di
 	<em>Fig.3</em>
 </p>
 
-For more about diffusion maps, refer to these papers: 
-
-https://doi.org/10.1073/pnas.0500334102
-
+For more about diffusion maps, refer to these papers:  
+https://doi.org/10.1073/pnas.0500334102  
 https://doi.org/10.1137/070696325
 
 ## Delay embedding of Lorenz attractor
