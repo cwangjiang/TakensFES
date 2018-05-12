@@ -1,8 +1,8 @@
 # Delay-embedding Lorenz_example
 ## Lorenz attractor generation
-<p align="left">
+<p align="center">
 <img src="example_Lorenz/Lorenz.png" width="600" height="400">
-<figcaption>Fig.1</figcaption>
+<em>image_caption</em>
 </p>
 <caption align="right">Fig.1</caption>
 
