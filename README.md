@@ -13,9 +13,9 @@ Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/f
 
 ## Delay time and delay dimension
 <p align="center">
-<img src="example_Lorenz/MI_full.png" width="300" height="200">
-<img src="example_Lorenz/MI_sparse.png" width="300" height="200">
-<img src="example_Lorenz/FNN.png" width="300" height="200">
+<img src="example_Lorenz/MI_full.png" width="400" height="300">
+<img src="example_Lorenz/MI_sparse.png" width="400" height="300">
+<img src="example_Lorenz/FNN.png" width="400" height="300">
 </p>
 
 For more about mutual information, refer to this article: DOI:https://doi.org/10.1103/PhysRevA.33.1134
