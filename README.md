@@ -122,7 +122,7 @@ Reference: https://doi.org/10.1016/0167-2789(86)90031-X
 ## Jacobian determinante
 
 <p align="center">
-<img src="figures/detJ.png" width="600" height="300">
+<img src="figures/detJ.png" width="600" height="200">
 <img src="figures/detJ1.png" width="600" height="100">
 </p>
 
