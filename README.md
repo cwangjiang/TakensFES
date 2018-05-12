@@ -1,11 +1,16 @@
 # Delay-embedding Lorenz_example
-This repository provide the source codes for conducting delay embedding of a time series from a dynamical system, conducting diffusion maps dimensionality reduction, and verifying the geometrical identification. Together with the code is the simple of Lorenz attractor. 
+This repository provide the source codes for conducting delay embedding of a time series from a dynamical system, conducting diffusion maps dimensionality reduction, and verifying the geometrical identification. Together with the code is the simple of Lorenz attractor, which can serve as the first example to verfify the validity of the codes.
 
 ## Lorenz attractor generation
 Lorenz attractor is the 3 dimensional dynamical system generating from differential equation sets:
 <p align="center">
 	<img src="figures/Lorenz.gif" >
 </p>
+A 20k by 3 dimensional vector will be generated using `lorenz_generating.m` in matlab
+```bash
+[X] = lorenz_generating(28,10,8/3,[0 1 1.05],[0 100],0.000001)
+```
+
 
 <p align="center">
 	<img src="example_Lorenz/Lorenz.png" width="600" height="400">
