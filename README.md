@@ -1,5 +1,5 @@
 # Delay-embedding Lorenz_example
-This repository provide the source codes for conducting delay embedding of a time series from a dynamical system, conducting diffusion maps dimensionality reduction, and verifying the geometrical identification. Together with the code is the simple of Lorenz attractor, which can serve as the first example to verfify the validity of the codes.
+This repository provide the source codes in /src for conducting delay embedding of a time series from a dynamical system, conducting diffusion maps dimensionality reduction, and verifying the geometrical identification. Together with the code is the simple of Lorenz attractor in /example_Lorenz, which can serve as the first example to verfify the validity of the codes.
 
 ## Lorenz attractor generation
 Lorenz attractor is the 3 dimensional dynamical system generating from differential equation sets:
@@ -21,8 +21,6 @@ The Lorenz attractor is shown in Fig.1. Because 20581 points are slight too much
 Plot_dmap
 ```
 
-
-
 <p align="center">
 	<img src="example_Lorenz/Lorenz.png" width="600" height="400">
 </p>
@@ -32,9 +30,10 @@ Plot_dmap
 
 Refer to code provied by Moiseev Igor: https://www.mathworks.com/matlabcentral/fileexchange/30066-lorenz-attaractor-plot?focused=5176856&tab=function
 
-### Subsampling Lorenz attractor
-
 ## Delay time and delay dimension
+
+When doing delay embedding, good delay time <img src="https://latex.codecogs.com/gif.latex?\tau"> and delay dimension D will be important, we use 'mutual information' to identify good delay time, and 'false nearest neighbour counting' to find good delay dimension.
+
 <p align="center">
 <img src="example_Lorenz/MI_full.png" width="400" height="300">
 <img src="example_Lorenz/MI_sparse.png" width="400" height="300">
