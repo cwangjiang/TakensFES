@@ -23,7 +23,7 @@ A 20581 <img src="https://latex.codecogs.com/gif.latex?\times"> 3 dimensional ma
 The Lorenz attractor is shown in Fig. 1. To control the size of the data, we evenly subsample 2000 points and generate a sparse version of the Lorenz attractor `Lorenz_sparse.mat`, we plot the full version `Lorenz_full.mat` and the sparse version `Lorenz_sparse.mat` together as shown in Fig. 1, using Matlab script `Plot_dmap.m`:
 
 ```bash
->> Plot_dmap
+>> Plot_dmap;
 ```
 
 <p align="center">
